@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="D3d-RU-cza">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Blue Diamond-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollTextDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PxV-fR-idQ">
+                                <rect key="frame" x="16" y="104" width="382" height="742"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKE-OC-jvH">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="786"/>
+                                        <mutableString key="text">The Saudi prince and his wife were away on holiday for three months, and the thief knew this was the time to strike.
+Kriangkrai Techamong was running a significant risk. Stealing could be punished with amputation in Saudi Arabia, but Kriangkrai's was no ordinary theft - he had his eye on dozens of precious gems and jewels owned by his employer Prince Faisal, the eldest son of King Fahd of Saudi Arabia.
+As a cleaner, Kriangkrai had come to know every corner of Prince Faisal's palace. And he had learned that three of the four safes containing the prince's jewels were regularly left unlocked. It was too good an opportunity to miss: he was struggling with gambling debt he had built up on the site where the palace workers lived, and this was a golden chance to flee the repressive country where he could no longer bear to live.
+One evening, he made up an excuse to be inside the palace after dark. He waited until other staff had left, and sneaked into the prince's bedroom. He picked some jewels and stuck them to his body using duct tape. He also stored gems inside cleaning equipment, including vacuum bags.
+By the end, he had taken almost 30kg (66lbs) of loot, valued at close to $20m. Among the pilfered items, Saudi officials would later say, were gold watches and several plump rubies.
+That night, Kriangkrai hid the valuables all over the palace, in places he knew they would not be discovered. And then, over a month, he moved them and hid them in the middle of a large cargo delivery he was sending home to Thailand.  
+ That night, Kriangkrai hid the valuables all over the palace, in places he knew they would not be discovered. And then, over a month, he moved them and hid them in the middle of a large cargo delivery he was sending home to Thailand.  
+
+/*****The End****/</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="nKE-OC-jvH" secondAttribute="bottom" id="KNQ-tK-VEw"/>
+                                    <constraint firstAttribute="trailing" secondItem="nKE-OC-jvH" secondAttribute="trailing" id="Muf-xY-wmO"/>
+                                    <constraint firstItem="nKE-OC-jvH" firstAttribute="top" secondItem="PxV-fR-idQ" secondAttribute="top" id="VCr-in-Fxy"/>
+                                    <constraint firstItem="nKE-OC-jvH" firstAttribute="width" secondItem="PxV-fR-idQ" secondAttribute="width" id="cgD-kh-3dl"/>
+                                    <constraint firstItem="nKE-OC-jvH" firstAttribute="leading" secondItem="PxV-fR-idQ" secondAttribute="leading" id="qho-xe-hmk"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="BkM-Yv-S0m"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Vhv-jJ-Agz"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PxV-fR-idQ" secondAttribute="bottom" constant="16" id="I6F-hB-ldT"/>
+                            <constraint firstItem="PxV-fR-idQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="RKH-nu-ZAX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PxV-fR-idQ" secondAttribute="trailing" constant="16" id="Y74-Pa-dXS"/>
+                            <constraint firstItem="PxV-fR-idQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="hKN-an-Ohc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Blue Diamond" id="3ei-vF-g2H"/>
+                    <connections>
+                        <outlet property="label" destination="nKE-OC-jvH" id="LQM-6A-jt7"/>
+                        <outlet property="scrollView" destination="PxV-fR-idQ" id="yK9-c4-Bea"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000" y="138"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uRO-X3-Vjx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="D3d-RU-cza" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7GQ-Xi-mgx">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="K2f-W9-HKd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="azo-ss-9c0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
